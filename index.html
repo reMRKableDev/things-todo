@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Things To-do</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="todo_container">
+        <div class="title_header">
+          <h1 class="main_title">Things To-do</h1>
+          <p class="sub_title">Getting it done!</p>
+        </div>
+
+        <p id="error-msg"></p>
+
+        <form class="todo_form" id="todo-form">
+          <input type="text" id="todo-input" placeholder="E.g: Buy groceries" />
+          <button type="submit">Add Item</button>
+        </form>
+
+        <ul class="todo_list" id="todo-list"></ul>
+      </section>
+    </main>
+    <script src="./js/main.js"></script>
+    <script src="./js/actions/addTodoItem.js"></script>
+    <script src="./js/actions/displayTodoItem.js"></script>
+    <script src="./js/actions/deleteTodoItem.js"></script>
+    <script src="./js/eventListeners/submitForm.js"></script>
+    <script src="./js/eventListeners/clickDeleteButton.js"></script>
+  </body>
+</html>

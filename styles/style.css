@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+
+main {
+  font-family: "Yusei Magic", sans-serif;
+}
+
+.title_header {
+  background-color: #ffe66d;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.main_title {
+  font-size: 50px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.sub_title {
+  font-size: 25px;
+}
+
+#error-msg {
+  background-color: #ff6b6b;
+  color: #ffffff;
+  display: none;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.todo_container {
+  border: 5px solid #000000;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+  margin: 20px;
+}
+
+.todo_form {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.todo_form > input[type="text"],
+.todo_form > button {
+  border: none;
+  font-size: 18px;
+  padding: 10px;
+  outline: none;
+}
+
+.todo_form > input[type="text"] {
+  border-bottom: 3px solid #4ecdc4;
+  opacity: 0.5;
+  width: 60%;
+}
+
+.todo_form > input[type="text"]:hover,
+.todo_form > input[type="text"]:focus {
+  opacity: 1;
+}
+
+.todo_form > button {
+  background-color: #4ecdc4;
+  color: #ffffff;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.todo_form > button:hover {
+  border: 1px solid #4ecdc4;
+  background-color: #ffffff;
+  box-shadow: 0 5px 6px 0 #999;
+  color: #4ecdc4;
+}
+
+.todo_list {
+  border: 2px dashed #1a535c;
+  display: none;
+  width: 50%;
+  height: 200px;
+  overflow: scroll;
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo_item {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#delete-todo {
+  background-color: #ff6b6b;
+  border: none;
+  color: #ffffff;
+  transition-duration: 0.4s;
+  outline: none;
+  cursor: pointer;
+}
+
+#delete-todo:hover {
+  border: 1px solid #ff6b6b;
+  background-color: #ffffff;
+  box-shadow: 0 5px 6px 0 #999;
+  color: #ff6b6b;
+}
