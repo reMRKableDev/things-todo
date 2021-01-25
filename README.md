@@ -1,5 +1,25 @@
-# Things To-Do
+# Things To-Do 🚀🚀🚀
 
-This is simple example of building a to-do list using only HTML, CSS, & JavaScript. There are no frameworks or libraries involved. 
+Yet another To-do List example 🤣
 
-The point is to show that it is possible to create 
+This is simple example of building a To-do list web application using only HTML, CSS, & JavaScript. No frameworks or libraries are involved in this 
+
+## Getting started 🏁
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Installing
+To get this project on your local machine, you first need to clone it using the git clone command.
+```
+git clone https://github.com/reMRKableDev/things-todo
+```
+
+Running this on your terminal will ensure you receive the latest version with all it's changes.
+
+### How To Use
+Once cloned, open the `index.html` on your computer's browser and start adding new to-do's
+
+## Authors 💻
+
+- Malcolm R. Kente - *Initial work* - [reMRKable Dev](https://remrkabledev.com/)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
