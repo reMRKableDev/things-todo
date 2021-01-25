@@ -1,5 +1,7 @@
 # Things To-Do 🚀🚀🚀
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=reMRKableDev_things-todo&metric=alert_status)](https://sonarcloud.io/dashboard?id=reMRKableDev_things-todo) [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=reMRKableDev_things-todo&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=reMRKableDev_things-todo) [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=reMRKableDev_things-todo&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=reMRKableDev_things-todo) [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=reMRKableDev_things-todo&metric=security_rating)](https://sonarcloud.io/dashboard?id=reMRKableDev_things-todo) [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=reMRKableDev_things-todo&metric=bugs)](https://sonarcloud.io/dashboard?id=reMRKableDev_things-todo) [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=reMRKableDev_things-todo&metric=code_smells)](https://sonarcloud.io/dashboard?id=reMRKableDev_things-todo) [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=reMRKableDev_things-todo&metric=sqale_index)](https://sonarcloud.io/dashboard?id=reMRKableDev_things-todo)
+
 Yet another To-do List example 🤣
 
 This is simple example of building a To-do list web application using only HTML, CSS, & JavaScript. No frameworks or libraries are involved in this 
