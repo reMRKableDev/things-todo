@@ -4,6 +4,16 @@ main {
   font-family: "Yusei Magic", sans-serif;
 }
 
+.todo_container {
+  border: 5px solid #000000;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+  margin: 20px;
+  z-index: 99;
+}
+
 .title_header {
   background-color: #ffe66d;
   width: 100%;
@@ -27,15 +37,6 @@ main {
   display: none;
   padding: 5px;
   text-transform: uppercase;
-}
-
-.todo_container {
-  border: 5px solid #000000;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  height: 90vh;
-  margin: 20px;
 }
 
 .todo_form {
